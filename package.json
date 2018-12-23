@@ -1,7 +1,6 @@
 {
   "name": "learning-git-7.5",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0na/learning-git-7.4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0na/learning-git-7.4/issues"
+  },
+  "homepage": "https://github.com/0na/learning-git-7.4#readme",
+  "description": ""
 }
