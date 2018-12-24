@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "nu-html-checker": "^0.1.0"
   },
   "repository": {
     "type": "git",
