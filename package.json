@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "autoprefixer": "postcss-cssnext style.css -o style.prefixer.css"
+
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
+    "autoprefixer-core": "^6.0.1",
     "browser-sync": "^2.26.3",
     "nu-html-checker": "^0.1.0",
+    "postcss": "^7.0.7",
     "postcss-cli": "^6.1.0",
+    "postcss-cssnext": "^3.1.0",
     "stylelint": "^9.9.0"
   },
   "repository": {
@@ -26,8 +31,6 @@
   "description": "",
   "dependencies": {
     "gulp-autoprefixer": "^6.0.0",
-    "postcss": "^7.0.7",
-    "postcss-cssnext": "^3.1.0",
     "postcss-flexboxfixer": "0.0.5",
     "postcss-unprefix": "^2.1.3",
     "postcss-use": "^3.0.0"
