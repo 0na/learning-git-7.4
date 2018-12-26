@@ -15,8 +15,10 @@ Wyskakuje mi komunikat  "-bash: postcss: command not found"
 Zainstalowalam plugin : postcss-cssnext, postcss-unprefix
 
 
-
-
-
 npm install postcss-flexboxfixer
 Postcss --use postcss-flexboxfixer --output styles.prefix.css
+
+
+
+
+S
