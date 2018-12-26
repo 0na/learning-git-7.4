@@ -27,3 +27,6 @@ Albo inna opcja
 
 pozniej w command line wpisalam : npm run "autoprefixer"
 Ale wyrzuca mi kilka errorów
+
+
+
