@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "autoprefixer": "postcss-cssnext style.css -o style.prefixer.css"
+    "autoprefixer": "postcss-cssnext style.css -o style.prefixer.css",
+    
+    "init-project": "npm install && npm run init:dirs && npm run init:files && npm run init:gitignore",
+    "init:dirs": "mkdirp sass css vendor images js",
+    "init:files": "touch README.md index.html sass/style.scss js/script.js",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +17,7 @@
     "autoprefixer-cli": "^1.0.0",
     "autoprefixer-core": "^6.0.1",
     "browser-sync": "^2.26.3",
+    "globstar": "^1.0.0",
     "nu-html-checker": "^0.1.0",
     "postcss": "^7.0.7",
     "postcss-cli": "^6.1.0",
