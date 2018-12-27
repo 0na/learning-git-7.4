@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "autoprefixer": "postcss-cssnext style.css -o style.prefixer.css",
     "test": "npm run test:html",
     "test:html": "globstar nu-html-checker *.html",
+
     "init-project": "npm install && npm run init:dirs && npm run init:files && npm run init:gitignore",
     "init:dirs": "mkdirp sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+
     "build": "npm run build:sass && npm run build:autoprefixer && npm run test",
     "build:clean": "rimraf vendor/*",
     "build:sass": "node-sass --output-style compact -o css sass",
