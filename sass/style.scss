@@ -6,7 +6,10 @@ $main-fonts: "Raleway", sans-serif;
 $text-fonts: "Amatic SC", cursive;
 $background-color: #313332;
 $hover-color: #f9e7b6;
-
+.test {
+    display:flex;
+    flex-wrap: wrap;
+}
 * {
     box-sizing: border-box;
     font-family: $main-fonts;
