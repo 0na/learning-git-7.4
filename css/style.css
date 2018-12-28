@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway:400,400i,700,700i&subset=latin-ext");
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Amatic SC', cursive; */
+.test {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
@@ -208,7 +215,7 @@ header nav ul li a:hover {
   text-transform: uppercase;
   font-size: 26px;
   font-weight: 700;
-  letter-spacing: .2em;
+  letter-spacing: .3em;
   text-shadow: 0px -3px 30px #969696;
   font-family: "Amatic SC", cursive;
 }
@@ -265,7 +272,8 @@ header nav ul li a:hover {
 .gallery .picture-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .gallery .picture-container .layer {
@@ -322,7 +330,8 @@ header nav ul li a:hover {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   text-align: center;
 }
 
@@ -362,7 +371,8 @@ header nav ul li a:hover {
 }
 
 .benefits .container .photo img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 250px;
 }
 
@@ -517,7 +527,8 @@ footer hr {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .hero .slogan {
     position: absolute;
@@ -565,7 +576,8 @@ footer hr {
   .gallery .container .picture-container {
     float: left;
     height: 200px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin: 0 auto;
   }
   .employees {
@@ -629,5 +641,4 @@ footer hr {
     display: none;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
